@@ -43,4 +43,9 @@ function avg_num (a,b,c,d){
     return result
 }
 
-console.log(avg_num(45,34,65,23));
+const avg_num1 = (a,b,c,d,e,f) => {
+    return (a+b+c+d+e+f)/6
+}
+
+console.log(avg_num(45, 34, 65, 23)); 
+console.log(avg_num1(2,3,4,5,6,7))
